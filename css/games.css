@@ -1,0 +1,42 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Bungee', cursive;
+  /* background-color: #263238; */
+  margin: 0;
+}
+canvas {
+  display: block;
+  margin: 20px auto;
+}
+.move {
+  margin: 40px auto 20px;
+  text-align: center;
+}
+.container {
+  display: block;
+  margin: 200px auto;
+}
+.center-align {
+  text-align: center
+}
+.instruction {
+  margin-bottom: 1rem;
+}
+.btn {
+  transition: transform .2s ease-out;
+  font-family: 'Bungee', cursive;
+  font-size: 1.2rem;
+  padding: 0 25px;
+  cursor: pointer;
+  background-color: #1976D2;
+  color: #fff;
+  outline: none;
+  border: none;
+  border-radius: 2px;
+  box-shadow: 0 4px 10px 3px rgba(25, 118, 210, .5);
+}
+.btn:active {
+  transform: scale3d(.75, .75, 1);
+}
